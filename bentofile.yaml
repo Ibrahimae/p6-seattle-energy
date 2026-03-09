@@ -1,0 +1,17 @@
+service: "api.service:svc"
+name: "seattle_energy_service"
+
+labels:
+  owner: "ibrahima"
+  project: "seattle-energy-forecast"
+
+include:
+  - "api/"
+
+python:
+  packages:
+    - bentoml
+    - scikit-learn
+    - pandas
+    - numpy
+    - pydantic
