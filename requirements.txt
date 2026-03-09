@@ -1,6 +1,6 @@
 bentoml==1.4.0
 setuptools<81
-scikit-learn
+scikit-learn==1.6.1
 pandas
 numpy
 pydantic
